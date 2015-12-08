@@ -1,11 +1,16 @@
-REACT COMPONENT BOILERPLATE
+REACT COMPONENT BOILERPLATE (WIP)
 
 TODOs
-- [ ] tests
+- [x] tests
+- [x] coverage
+- [ ] build
 - [ ] webpack
 - [ ] hot reload
-- [ ] npm tasks
-- [ ] editorConfig
-- [ ] coveralls
-- [ ] travis
-- [ ] eslint
+- [x] task for tests
+- [x] task for tests and coverage
+- [ ] task for publishing to npm
+- [ ] task for publishing to gh-pages
+- [x] editorConfig
+- [x] coveralls
+- [x] travis
+- [x] eslint
