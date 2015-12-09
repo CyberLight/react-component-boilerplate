@@ -1,6 +1,7 @@
 import { expect } from 'chai';
 import React from 'react';
 import { createRenderer } from 'react-addons-test-utils';
+
 import Component from '../src/component';
 
 describe('Component', () => {
@@ -12,9 +13,11 @@ describe('Component', () => {
     instance = shallowRenderer.getRenderOutput();
   });
 
-  it('Should pass', () => {
-    console.log(instance);
+  it('should be a div', () => {
     expect(instance.type).to.equal('div');
+  });
+
+  it('should have prop foo equals 1', () => {
     expect(instance.props.foo).to.equal(1);
   });
 });
