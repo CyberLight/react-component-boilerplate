@@ -31,6 +31,17 @@ From your terminal:
 - `gulp dev`
 
 
+### Settings
+
+You will find some .dotfiles in the root of this project. Those are the settings for all the tools we are using and they are shared between npm, gulp and the services we are using. Be mindful changing it.
+
+  | File          | Description |
+  |---------------|-------------|
+  | .babelrc      | babel settings |
+  | .editorconfig | code style configs |
+  | .eslintrc     | linting settings |
+  | .travis.yml   | ci settings for travis |
+
 ### Setting up Continuous integration using Travis
 
 After pushing your repo to bitbucket or github, go to [travis-ci](https://travis-ci.org), link and enable your new repo to be built. Your next git push will trigger the build.

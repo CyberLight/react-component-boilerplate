@@ -55,3 +55,14 @@ gulp.task('watch', () => {
   gulp.watch([`${SRC_PATH}/*.js`], ['re-build']);
 });
 
+
+gulp.task('publish', () => {
+  // bumps version creating a new patch unless specified
+  // publish to npm
+  // commit
+  // push new tag to git
+});
+
+gulp.task('deploy', () => {
+  // publish demo folder to gh-pages
+});
