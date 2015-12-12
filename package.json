@@ -12,7 +12,6 @@
   },
   "homepage": "http://leandrowd.github.io/react-component-boilerplate/",
   "scripts": {
-    "postinstall": "npm run build",
     "start": "watch 'npm run lint' ./src",
     "lint": "eslint src/ test/",
     "build": "babel src/ --out-dir ./lib",
