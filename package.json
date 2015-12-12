@@ -19,7 +19,9 @@
     "test": "mocha",
     "tdd": "mocha --watch",
     "coverage": "isparta cover _mocha --include-all-sources --report lcovonly",
-    "coveralls": "cat coverage/lcov.info | coveralls"
+    "coveralls": "cat coverage/lcov.info | coveralls",
+    "prepublish": "npm test && npm run lint && npm run build && npm",
+    "release": "(git pull origin master && npm version patch && git push origin master && git checkout release && git merge master && git push origin release && git checkout master)"
   },
   "author": {
     "name": "Leandro Augusto Lemos",
