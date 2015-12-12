@@ -1,10 +1,10 @@
-import gulp from 'gulp';
-import mocha from 'gulp-mocha';
-import del from 'del';
-import babel from 'gulp-babel';
-import sourcemaps from 'gulp-sourcemaps';
-import changed from 'gulp-changed';
-import eslint from 'gulp-eslint';
+const gulp = require('gulp');
+const mocha = require('gulp-mocha');
+const del = require('del');
+const babel = require('gulp-babel');
+const sourcemaps = require('gulp-sourcemaps');
+const changed = require('gulp-changed');
+const eslint = require('gulp-eslint');
 
 const SRC_PATH = './src';
 const DIST_PATH = './lib';
