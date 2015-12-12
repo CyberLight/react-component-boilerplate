@@ -1,42 +1,42 @@
 # REACT COMPONENT BOILERPLATE (WIP)
 
-[![Build Status](https://travis-ci.org/leandrowd/react-component-boilerplate.svg?branch=master)](https://travis-ci.org/leandrowd/react-component-boilerplate)
-
-[![Coverage Status](https://coveralls.io/repos/leandrowd/react-component-boilerplate/badge.svg?branch=master&service=github)](https://coveralls.io/github/leandrowd/react-component-boilerplate?branch=master)
+[![Build Status](https://travis-ci.org/leandrowd/react-component-boilerplate.svg?branch=master)](https://travis-ci.org/leandrowd/react-component-boilerplate) [![Coverage Status](https://coveralls.io/repos/leandrowd/react-component-boilerplate/badge.svg?branch=master&service=github)](https://coveralls.io/github/leandrowd/react-component-boilerplate?branch=master)
 
 Easy way to start your new react component.
 
-This boilerplayte provides everything you need to start developing and testing your new component.
+This boilerplayte provides everything you need to start developing and testing your new component. Including:
+- es6/7 support through babel;
+- code linting through eslint;
+- automatic code style for your editor through editorConfig
+- test frameworks using mocha, chai;
+- test coverage using isparta;
+- continuous integration using travis;
+- coverall report
+- badges
+- fast dev cycle using gulp
+- automated releases using npm
 
-### TODOs
-- [x] tests
-- [x] coverage
-- [x] build
-- [x] task for tests
-- [x] task for tests and coverage
-- [ ] task for publishing to npm
-- [ ] task for publishing to gh-pages
-- [x] editorConfig
-- [x] coveralls
-- [x] travis
-- [x] eslint
-- [x] add gulp tasks for performing everything
 
 ## Getting started
 
-From your terminal:
+### From your terminal:
 
 - `git clone git@github.com:leandrowd/react-component-boilerplate.git`
 - `npm install`
+
+#### For starting developing
 - `gulp dev`
 
+#### For releasing on npm
+- `npm run release`
 
-### Settings
+
+## Settings
 
 You will find some .dotfiles in the root of this project. Those are the settings for all the tools we are using and they are shared between npm, gulp and the services we are using. Be mindful changing it.
 
   | File          | Description |
-  |---------------|-------------|
+  |:--------------|:------------|
   | .babelrc      | babel settings |
   | .editorconfig | code style configs |
   | .eslintrc     | linting settings |
@@ -54,7 +54,7 @@ Go to [coveralls](https://coveralls.io), get a token and enable your repo for co
 ### List of gulp tasks (used for development workflow)
 
   | Task          | Description |
-  |---------------|-------------|
+  |:--------------|:------------|
   | default       |
   | clean         | remove generated folders |
   | dev           | runs everything you need and keep watching for changes |
@@ -68,7 +68,7 @@ Go to [coveralls](https://coveralls.io), get a token and enable your repo for co
 ### List of npm tasks (mostly used from the services)
 
   | Task          | Description |
-  |---------------|-------------|
+  |:--------------|:------------|
   | postinstall   |
   | start         |
   | lint          | lint js files |
@@ -77,4 +77,24 @@ Go to [coveralls](https://coveralls.io), get a token and enable your repo for co
   | tdd           | run the tests and keep watching |
   | coverage      | collect coverage from the tests |
   | coveralls     | sends coverage reports to coveralls |
+  | prerelease    | run tests, linting and build prior to release |
+  | release       | bump npm version, push to git and publish to npm |
+
+
+### Contributing
+
+### TODOs
+- [x] tests
+- [x] coverage
+- [x] build
+- [x] task for tests
+- [x] task for tests and coverage
+- [x] task for publishing to npm
+- [ ] task for publishing to gh-pages
+- [x] editorConfig
+- [x] coveralls
+- [x] travis
+- [x] eslint
+- [x] add gulp tasks for performing everything
+- [ ] create a template and generator
 
