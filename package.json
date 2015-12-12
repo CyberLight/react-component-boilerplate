@@ -1,5 +1,5 @@
 {
-  "name": "react-component-boilerplate",
+  "name": "react-component-skeleton",
   "version": "0.0.4",
   "description": "React component boilerplate",
   "main": "./lib/index.js",
