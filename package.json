@@ -17,7 +17,7 @@
     "build": "babel src/ --out-dir ./lib",
     "test": "mocha",
     "tdd": "mocha --watch",
-    "coverage": "isparta cover _mocha --include-all-sources --report lcovonly",
+    "coverage": "isparta cover _mocha --include-all-sources --report html --report lcovonly",
     "coveralls": "cat coverage/lcov.info | coveralls",
     "prerelease": "npm test && npm run lint && npm run build",
     "release": "(git pull origin master && npm version patch && git push origin master && git checkout release && git merge master && git push origin release && git checkout master && npm publish)"
