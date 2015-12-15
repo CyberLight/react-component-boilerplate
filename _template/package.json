@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "React component boilerplate",
   "main": "./lib/index.js",
+  "engines": {
+    "node": ">= 5.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/leandrowd/react-component-boilerplate.git"
