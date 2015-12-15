@@ -1,4 +1,4 @@
-# REACT COMPONENT BOILERPLATE (WIP)
+# REACT COMPONENT BOILERPLATE
 
 [![Build Status](https://travis-ci.org/leandrowd/react-component-boilerplate.svg?branch=master)](https://travis-ci.org/leandrowd/react-component-boilerplate) [![Coverage Status](https://coveralls.io/repos/leandrowd/react-component-boilerplate/badge.svg?branch=master&service=github)](https://coveralls.io/github/leandrowd/react-component-boilerplate?branch=master)
 
