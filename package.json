@@ -1,6 +1,6 @@
 {
   "name": "react-component-skeleton",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "React component boilerplate",
   "main": "./lib/index.js",
   "engines": {
