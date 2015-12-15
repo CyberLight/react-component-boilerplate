@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Component extends React.Component {
+export default class <%= component_name %> extends React.Component {
   static propTypes = {
     children: React.PropTypes.node
   }
