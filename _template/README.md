@@ -1,5 +1,7 @@
 # REACT COMPONENT BOILERPLATE
 
+### Generated using react-init
+
 [![Build Status](https://travis-ci.org/leandrowd/react-component-boilerplate.svg?branch=master)](https://travis-ci.org/leandrowd/react-component-boilerplate) [![Coverage Status](https://coveralls.io/repos/leandrowd/react-component-boilerplate/badge.svg?branch=master&service=github)](https://coveralls.io/github/leandrowd/react-component-boilerplate?branch=master)
 
 Easy way to start your new react component.
@@ -16,13 +18,10 @@ This boilerplayte provides everything you need to start developing and testing y
 - fast dev cycle using gulp
 - automated releases using npm
 
-
 ## Getting started
 
 ### From your terminal:
-
-- `git clone git@github.com:leandrowd/react-component-boilerplate.git`
-- `npm install`
+- `npm install` // it's taking around ~3min when you run for the first time
 
 #### For starting developing
 - `gulp dev`
@@ -30,6 +29,7 @@ This boilerplayte provides everything you need to start developing and testing y
 #### For releasing on npm
 - `npm run release`
 
+* Don't forget to update package.json before publishing
 
 ## Settings
 
